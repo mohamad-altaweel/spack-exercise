@@ -2,7 +2,6 @@
 # Spack Project Developers. See the top-level COPYRIGHT file for details.
 #
 # SPDX-License-Identifier: (Apache-2.0 OR MIT)
-
 # ----------------------------------------------------------------------------
 # If you submit this package back to Spack as a pull request,
 # please first remove this boilerplate and all FIXME comments.
@@ -33,6 +32,7 @@ class SpackExercise(CMakePackage):
     # notify when the package is updated.
     maintainers = ['mohamad-altaweel']
 
+    # all versions provided
     version('0.3.0', sha256='c0c137ab5bf52a36c6c9a000ce32a607dc6f98f808a734ff6d729b4ca01bec9b')
     version('0.2.0', sha256='2d309f0dcf7343d88ceaec7a3daa6cb556603777ed35b90d741671d4dc04ef5d')
     version('0.1.0', sha256='afedc68249587779f1ade08760823ed17cbff62a4cf3d1eaa88d2fe609854470')
